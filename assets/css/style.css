@@ -1,2 +1,114 @@
 @charset "utf-8";
 /* CSS Document */
+.header {
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+.header-content-wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+.menu_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.menu_link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-right: 45px;
+}
+.menu_link a {
+  color: #505F98;
+  font-size: 14px;
+}
+.header_logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.header_logo a {
+  color: #37447E;
+}
+.buy_btn a {
+  background-color: #37447E;
+  padding: 6px 30px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.section-top-img_wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  z-index: -1;
+}
+.section_top {
+  max-width: 1160px;
+  margin: 0 auto 200px;
+  padding-top: 200px;
+}
+.section-top_message h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #091133;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+}
+.section-top_message p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #505F98;
+  line-height: 2;
+}
+.section-top_wrapper {
+  display: flex;
+  flex-flow: wrap;
+}
+.section-top_message {
+  width: 50vw;
+}
+.section-top-btn_wrapper {
+  display: flex;
+  padding-top: 50px;
+}
+.top_btn {
+  margin-right: 15px;
+  width: 143px;
+  background-color: #37447E;
+  padding: 6px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+.top_btn2 {
+  width: 143px;
+  border: 1px solid #37447E;
+  padding: 6px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+.top_btn a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+.top_btn2 a {
+  color: #37447E;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
