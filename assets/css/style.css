@@ -218,9 +218,11 @@
 }
 .section_bottom {
   position: relative;
-  background-color: #E7ECFF;
-  padding: 300px 0;
+  background-image: url("../../assets/img/rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+  padding: 300px 0;
 }
 .section-bottom_message h2 {
   font-family: "Roboto", sans-serif;
