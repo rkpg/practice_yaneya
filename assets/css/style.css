@@ -224,9 +224,13 @@
   z-index: -1;
 }
 .section_bottom_img {
-  position: absolute;
-  left: 0;
-  top: -80px;
+    position: absolute;
+    left: 0;
+    top: -100px;
+    height: 400px;
+    z-index: 0;
+    object-fit: cover;
+    object-position: top;
 }
 .section-bottom_message h2 {
   font-family: "Roboto", sans-serif;
