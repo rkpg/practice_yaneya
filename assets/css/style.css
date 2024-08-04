@@ -218,9 +218,15 @@
 }
 .section_bottom {
   position: relative;
-  background-color: rgba(231,236,255,.5);
-  text-align: center;  
-  padding: 300px 0;
+  background-color: rgba(229, 235, 255, .5);
+  text-align: center;
+  padding: 200px 0;
+  z-index: -1;
+}
+.section_bottom_img {
+  position: absolute;
+  left: 0;
+  top: -80px;
 }
 .section-bottom_message h2 {
   font-family: "Roboto", sans-serif;
@@ -324,7 +330,6 @@
 }
 .site-map__main-links_item {
   display: flex;
-  
 }
 .site-map__main-link {
   padding-right: 60px;
