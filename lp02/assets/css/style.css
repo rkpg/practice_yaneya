@@ -26,12 +26,10 @@
 .nav_list {
   margin-right: 64px;
 }
-.nav_list a, .nav_list_last a {
-  color: #333;
-  font-size: 14px;
-}
 .nav_list a {
   color: #333;
+  font-size: 14px;
+  font-weight: 500;
 }
 .nav_list_last {
   padding: 16px 20px;
@@ -39,6 +37,8 @@
 }
 .nav_list_last a {
   color: #fff;
+  font-size: 16px;
+  font-weight: 700;
 }
 #home {
   background-image: url("../img/rectangle49.jpg");
@@ -56,6 +56,7 @@
 
 .main_visual_text01 h2 {
   font-size: 36px;
+  font-weight: 400;
 }
 .main_visual_text01 {
     padding: 16px 0px;
