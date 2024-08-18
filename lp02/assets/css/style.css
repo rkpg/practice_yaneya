@@ -46,23 +46,22 @@
 }
 .main_visual {
   background-size: cover;
-  background-position:center top;
+  background-position: center top;
 }
 .main_visual_text_wrapper {
   position: absolute;
   left: 100px;
   bottom: 40px;
 }
-
 .main_visual_text01 h2 {
   font-size: 36px;
   font-weight: 400;
 }
 .main_visual_text01 {
-    padding: 16px 0px;
-    background-color: #fff;
-    width: 296px;
-    text-align: center;
+  padding: 16px 0px;
+  background-color: #fff;
+  width: 296px;
+  text-align: center;
   margin-bottom: 10px;
 }
 .main_visual_text02 h2 {
@@ -71,8 +70,20 @@
   color: #fff;
 }
 .main_visual_text02 {
-    padding: 16px 0px;
-    background-color: #0FABB5;
-    width: 790px;
-    text-align: center;   
+  padding: 16px 0px;
+  background-color: #0FABB5;
+  width: 790px;
+  text-align: center;
+}
+.section_top {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 20px;
+}
+.section_top_text2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0FABB5;
 }
