@@ -87,3 +87,51 @@
   font-size: 20px;
   color: #0FABB5;
 }
+.section_second {
+  background: #E3FAFF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.section_second_all-wrapper {
+  display: flex;
+  max-width: 1037px;
+  margin: 0 auto;
+}
+
+.section-second_text-item {
+  width: 70vw;
+  padding: 55px;
+}
+.section-second_text_wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.check-box_img {
+  width: 22px;
+  margin-right: 15px;
+}
+.section-second_text-item {
+  background: #fff;
+}
+.section-second_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.section_third {
+  background: #0FABB5;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.section-second_arrow {
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  width: 46px;   
+    }
