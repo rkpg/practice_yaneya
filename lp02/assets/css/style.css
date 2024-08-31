@@ -178,3 +178,33 @@
   font-weight: 400;
   line-height: 1.7;
 }
+.section_fifth {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url(../img/rectangle54.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.section-fifth_text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+.section-fifth_link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.section-fifth_link-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background-color: #F13C68;
+  width: 276px;
+  margin: 0 auto;
+}
+.section-fifth_link-img {
+  width: 20px;
+}
