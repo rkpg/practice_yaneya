@@ -44,6 +44,41 @@
   background-image: url("../img/rectangle49.jpg");
   min-height: 100vh;
 }
+#page-top {
+  width: 56px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 2;
+  opacity: 0;
+  transform: translateY(100px);
+}
+#page-top.UpMove {
+  animation: UpAnime 0.6s forwards;
+}
+@keyframes UpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#page-top.DownMove {
+  animation: DownAnime 0.5s forwards;
+}
+@keyframes DownAnime {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(100px);
+  }
+}
 .main_visual {
   background-size: cover;
   background-position: center top;
@@ -359,8 +394,8 @@
   font-weight: 400;
 }
 .accordion_q::before {
-    content: url(../img/q.png);   
-    margin-right: 25px;    
+  content: url(../img/q.png);
+  margin-right: 25px;
 }
 .accordion_q:after {
   content: "";
@@ -386,9 +421,9 @@
   margin-top: 35px;
 }
 .accordion_a::before {
-    content: url(../img/a.png);   
-    margin-right: 25px;
-   vertical-align: middle;
+  content: url(../img/a.png);
+  margin-right: 25px;
+  vertical-align: middle;
 }
 .footer {
   width: 100%;
