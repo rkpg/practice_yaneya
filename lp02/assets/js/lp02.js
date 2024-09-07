@@ -2,7 +2,7 @@
 
 $(function(){
 $('.accordion_q').click(function(){
-  $(this).next().slideToggle(500); //要素の開閉
-  $(this).toggleClass('arrow'); //矢印を回転させる
+  $(this).next().slideToggle(300); 
+  $(this).toggleClass('arrow');
 });
 });

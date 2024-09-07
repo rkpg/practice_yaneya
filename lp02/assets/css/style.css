@@ -359,19 +359,8 @@
   font-weight: 400;
 }
 .accordion_q::before {
-  content: "Q";
-  padding-bottom: 4px;
-  margin-right: 25px;
-  font-size: 30px;
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #0FABB5;
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+    content: url(../img/q.png);   
+    margin-right: 25px;    
 }
 .accordion_q:after {
   content: "";
@@ -397,16 +386,9 @@
   margin-top: 35px;
 }
 .accordion_a::before {
-  content: "A";
-  padding-bottom: 4px;
-  margin-right: 25px;
-  font-size: 30px;
-  font-weight: 400;
-  background: #0FABB5;
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+    content: url(../img/a.png);   
+    margin-right: 25px;
+   vertical-align: middle;
 }
 .footer {
   width: 100%;
