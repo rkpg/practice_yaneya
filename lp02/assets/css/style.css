@@ -83,22 +83,22 @@
 }
 .main_visual_text_wrapper {
   position: absolute;
-  left: 5%;
+  left: 4%;
   bottom: 40px;
 }
 .main_visual_text01 h2 {
-  font-size: 36px;
+  font-size: calc((100vw - 375px) / 59.16 + 18px);
   font-weight: 400;
   padding: 16px 16px;
 }
 .main_visual_text01 {
+  display: inline-block;
   background-color: #fff;
-  max-width: 284px;
   text-align: center;
   margin-bottom: 15px;
 }
 .main_visual_text02 h2 {
-  font-size: 54px;
+  font-size: calc((100vw - 375px) / 38.03 + 26px);
   font-weight: 500;
   color: #fff;
   padding: 16px 16px;
@@ -468,13 +468,10 @@
   .nav_list_last_link {
     font-size: 14px;
   }
-  .main_visual_text01 {
-    max-width: 228px;
-  }
-  .main_visual_text01 h2 {
-    font-size: 28px;
-  }
-  .main_visual_text02 h2 {
-    font-size: 42px;
-  }
+  
+}
+@media (max-width: 768px) {
+  
+  
+  
 }
