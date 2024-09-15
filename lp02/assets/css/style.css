@@ -589,4 +589,13 @@
     min-height: auto;
     max-height: none;
   }
+  .section-fourth_all-wrapper {
+    display: block;
+    
+}
+  .section-fourth_img-text-wrapper {
+    width: auto;
+    max-width: none;
+    margin-bottom: 30px;
+}
 }
