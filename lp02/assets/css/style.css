@@ -577,4 +577,16 @@
   .openbtn {
     display: block;
   }
+  .section_second_all-wrapper {
+    display: block;
+  }
+  .section-second_img {
+    max-height: 330px;
+    min-height: 330px;
+    object-position: center 41%;
+  }
+  .section-second_text-item {
+    min-height: auto;
+    max-height: none;
+  }
 }
