@@ -54,29 +54,38 @@
 #g-nav.panelactive {
   right: 0;
 }
+
+
 #g-nav ul {
-  position: absolute;
-  z-index: 40;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 40;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
 }
 #g-nav li {
-  list-style: none;
   text-align: center;
+}
+.nav_list_sp {
+  border-bottom: solid 1px #ADADAD;
 }
 #g-nav li a {
   color: #333;
-  padding: 15px 0;
+  padding: 20px 0;
   display: block;
   font-size: 16px;
   font-weight: 500;
 }
+.header_logo_nav {
+    max-width: 176px;
+    margin: 23px 4% 23px;
+}
 .nav_list_last_sp {
-  padding: 15px 0;
-  background-color: #F13C68;
-  margin-top: 25px;
-  width: 210px;
+    padding: 15px 0;
+    background-color: #F13C68;
+    width: 210px;
+    margin: 30px auto 0;
 }
 .nav_list_last_link_sp {
   font-size: 16px;
@@ -627,4 +636,5 @@
   .section-access_img {
     max-height: 340px;
   }
+  
 }
