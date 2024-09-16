@@ -30,3 +30,9 @@ img {
   width: 100%;
   object-fit: cover;
 }
+@media (min-width: 530px) {
+  .break_pc-530:after {
+    content: "\A";
+    white-space: pre;
+  }
+}
