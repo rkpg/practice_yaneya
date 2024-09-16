@@ -208,12 +208,12 @@
   text-align: center;
 }
 .section_top {
-    padding-top: 50px;
-    text-align: center;
-    line-height: 1.8;
-    font-size: 20px;
-    max-width: 85%;
-    margin: 0 auto 50px;
+  padding-top: 50px;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 20px;
+  max-width: 85%;
+  margin: 0 auto 50px;
 }
 .section_top_text2 {
   font-weight: 700;
@@ -282,7 +282,6 @@
   max-width: 85%;
   margin: 0 auto;
   line-height: 1.5;
-  
 }
 .section_fourth {
   padding: 100px 0;
@@ -341,12 +340,12 @@
   background-position: center;
 }
 .section-fifth_text {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.7;
-    margin-bottom: 28px;
-    max-width: 85%;
-    margin: 0 auto 24px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 28px;
+  max-width: 85%;
+  margin: 0 auto 24px;
 }
 .section-seventh_text-item {
   width: 55%;
@@ -428,19 +427,19 @@
   margin-bottom: 8px;
 }
 .section-seventh_list-box {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #0FABB5;
-    padding: 5px 8px;
-    text-align: center;
-    width: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #0FABB5;
+  padding: 5px 8px;
+  text-align: center;
+  width: 50px;
 }
 .section-seventh_list-text {
-    font-size: 16px;
-    font-weight: 400;
-     width: 70%;
-    line-height: 1.3;
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+  line-height: 1.3;
 }
 .section_access {
   padding: 100px 0;
@@ -574,7 +573,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 @media (max-width: 768px) {
   .header_wrapper {
     display: none;
@@ -604,7 +602,7 @@
   }
   .section_fourth {
     padding: 75px 0;
-}
+  }
   .section-fourth_all-wrapper {
     display: block;
   }
@@ -615,7 +613,6 @@
   }
   .section_seventh {
     padding: 75px 0;
-    
   }
   .section-seventh_img-text_wrapper {
     display: block;
@@ -634,6 +631,18 @@
   }
   .section-seventh_text-item {
     width: 100%;
+  }
+  .section-seventh_text-title {
+    font-size: 22px;
+  }
+  .section-seventh_text {
+    font-size: 14px;
+  }
+  .section-seventh_list-box {
+    font-size: 14px;
+  }
+  .section-seventh_list-text {
+    font-size: 14px;
   }
   .section_access {
     padding: 0;
@@ -654,6 +663,5 @@
   }
   .section_qa {
     padding: 75px 0;
-    
-}
+  }
 }
