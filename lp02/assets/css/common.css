@@ -36,3 +36,9 @@ img {
     white-space: pre;
   }
 }
+@media (max-width: 480px) {
+  .break_pc-480:after {
+    content: "\A";
+    white-space: pre;
+  }
+}
