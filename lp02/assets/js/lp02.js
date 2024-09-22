@@ -1,10 +1,14 @@
 // JavaScript Document
 
-$(function () {
-  $('.accordion_q').click(function () {
-    $(this).next().slideToggle(300);
-    $(this).toggleClass('arrow');
-  });
+$('.accordion_q').on('click', function() {
+	var findElm = $(this).next(".accordion-a_wrapper_none");
+	$(findElm).slideToggle();
+    
+	if($(this).hasClass('close')){
+		$(this).removeClass('close');
+	}else{
+		$(this).addClass('close');
+	}
 });
 
 function PageTopAnime() {
