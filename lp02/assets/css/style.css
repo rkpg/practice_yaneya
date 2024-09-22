@@ -187,7 +187,7 @@
   z-index: -1;
 }
 .main_visual_text01 h2 {
-  font-size: calc((100vw - 375px) / 59.16 + 16px);
+  font-size: calc((100vw - 375px) / 65 + 17px);
   font-weight: 400;
   padding: 16px 16px;
 }
@@ -198,7 +198,7 @@
   margin-bottom: 15px;
 }
 .main_visual_text02 h2 {
-  font-size: calc((100vw - 375px) / 35.5 + 24px);
+  font-size: calc((100vw - 375px) / 50 + 25px);
   font-weight: 500;
   color: #fff;
   padding: 16px 16px;
@@ -668,4 +668,11 @@
     margin-right: 15px;
     transform: scale(0.85);
   }
+}
+@media (max-width: 430px) {
+  .main_visual_text_wrapper {
+   left: 0;
+   bottom: 60px;
+  }
+  
 }
