@@ -1,5 +1,6 @@
 // JavaScript Document
 
+//よくある質問
 $('.accordion_q').on('click', function() {
 	var findElm = $(this).next(".accordion-a_wrapper_none");
 	$(findElm).slideToggle();
@@ -11,6 +12,7 @@ $('.accordion_q').on('click', function() {
 	}
 });
 
+//トップページに戻る
 function PageTopAnime() {
   var scroll = $(window).scrollTop();
   if (scroll >= 200) {
@@ -29,18 +31,19 @@ $(window).scroll(function () {
   PageTopAnime();
 });
 
-
 $(window).on('load', function () {
   PageTopAnime();
 });
 
-$('#page-top a').click(function () {
+$('#page-top').click(function () {
   $('body,html').animate({
     scrollTop: 0
   }, 1000);
   return false;
 });
 
+
+//オープンボタン
 $(".openbtn").click(function () {
 	$(this).toggleClass('active');
     $("#g-nav").toggleClass('panelactive');
