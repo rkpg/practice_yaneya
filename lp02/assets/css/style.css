@@ -508,7 +508,7 @@
   background: #0FABB5;
 }
 .accordion-qa_all-wrapper {
-  width: 80%;
+  width: 85%;
   max-width: 970px;
   margin: 88px auto 0 auto;
 }
@@ -524,24 +524,26 @@
     font-weight: 400;
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
+    width: 85%;
+    line-height: 1.5;
 }
 .accordion_q::before {
   content: url("../img/q.png");
 }
 .accordion_q:after {
-  content: "";
-  position: absolute;
-  right: 5px;
-  top: 0;
-  bottom: 10px;
-  margin: auto;
-  transition: all 0.5s ease-in-out;
-  width: 20px;
-  height: 20px;
-  border-top: solid 2px #0FABB5;
-  border-right: solid 2px #0FABB5;
-  transform: rotate(135deg);
+    content: "";
+    position: absolute;
+    right: -15%;
+    top: 0;
+    bottom: 10px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    width: 20px;
+    height: 20px;
+    border-top: solid 2px #0FABB5;
+    border-right: solid 2px #0FABB5;
+    transform: rotate(135deg);
 }
 .accordion_q.close:after {
   transform: rotate(-45deg);
@@ -550,15 +552,16 @@
 .accordion-a_wrapper_none {
   display: none;
 }
-
-.accordion-a_flex {
+.accordion-a::before {
+  content: url("../img/a.png");
+}
+.accordion-a {
     display: flex;
     align-items: center;
     gap: 25px;
-    margin-top: 35px;
-}
-.accordion-q_icon,.accordion-a_icon {
-  width: 60px;
+    width: 85%;
+    line-height: 1.5;
+  margin-top: 24px;
 }
 .footer {
   width: 100%;
@@ -669,14 +672,25 @@
   .section_qa {
     padding: 75px 0;
   }
-  .accordion_q::before {
+  .accordion_q,.accordion-a  {
+    gap: 5px;
+   
+    
+}
+  .accordion-a {
+    margin-top: 16px;
+  }
+  .accordion_q::before,.accordion-a::before {
     margin-right: 15px;
     transform: scale(0.85);
   }
-  .accordion_a::before {
-    margin-right: 15px;
-        transform: scale(0.85);
-    }
+  .section-access_address {
+    font-size: 14px;
+  }
+  .section-access_access {
+    font-size: 14px;
+  
+  }
   
 }
 @media (max-width: 480px) {
@@ -703,11 +717,13 @@
     margin-bottom: 16px;
     line-height: 1.5;
 }
-  .section-access_address {
-    font-size: 14px;
+  .accordion_q:after {
+    width: 15px;
+    height: 15px;
+    
   }
-  .section-access_access {
-    font-size: 14px;
-  
-  }
+  .accordion_q,.accordion-a  {
+     font-size: 14px;
+    
+}
 }
