@@ -7,13 +7,13 @@
   position: relative;
   filter: drop-shadow(0px 4px 4px rgba(156, 156, 156, 0.25));
 }
-.header_logo {
+.header__logo {
   width: 176px;
 }
-.header_logo_sp {
+.header__logo--sp {
   display: none;
 }
-.header_wrapper {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -22,21 +22,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.nav_list_flex {
+.pc-nav__list {
   display: flex;
   align-items: center;
   gap: calc((100vw - 768px) / 20.48 + 35px);
 }
-.nav_list a {
+.pc-nav__listItem a {
   color: #333;
   font-size: calc((100vw - 375px) / 500 + 12px);
   font-weight: 500;
 }
-.nav_list_last {
+.pc-nav__listItem--last {
   padding: 16px 20px;
   background-color: #F13C68;
 }
-.nav_list_last_link {
+.pc-nav__listItem--link {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -65,7 +65,7 @@
 #g-nav li {
   text-align: center;
 }
-.nav_list_sp {
+.pc-nav__listItem--sp {
   border-bottom: solid 1px #ADADAD;
 }
 #g-nav li a {
@@ -75,17 +75,17 @@
   font-size: 16px;
   font-weight: 500;
 }
-.header_logo_nav {
+.header__logo--nav {
   max-width: 176px;
   margin: 23px 4% 23px;
 }
-.nav_list_last_sp {
+.pc-nav__listItem_last_sp {
   padding: 15px 0;
   background-color: #F13C68;
   width: 210px;
   margin: 30px auto 0;
 }
-.nav_list_last_link_sp {
+.pc-nav__listItem_last_link_sp {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
@@ -135,7 +135,7 @@
   transform: translateY(-6px) rotate(45deg);
   width: 30%;
 }
-#home {
+.home {
   background-image: url("../img/rectangle49.jpg");
   min-height: 100vh;
   position: relative;
@@ -176,7 +176,7 @@
     transform: translateY(100px);
   }
 }
-.main_visual {
+.home__img {
   background-size: cover;
   background-position: center top;
 }
@@ -222,6 +222,8 @@
 }
 .section_second {
   background: #E3FAFF;
+
+
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
@@ -581,10 +583,10 @@
   transform: translate(-50%, -50%);
 }
 @media (max-width: 768px) {
-  .header_wrapper {
+  .header__wrapper {
     display: none;
   }
-  .header_logo_sp {
+  .header__logo--sp {
     display: block;
     width: 176px;
     position: absolute;
@@ -592,6 +594,14 @@
     left: 4%;
     transform: translate(0px, -50%);
   }
+  .header__logo--nav {
+    width: 176px;
+    position: absolute;
+    top: 16px;
+    left: 4%;
+    
+  }
+
   .openbtn {
     display: block;
   }
@@ -646,6 +656,7 @@
   }
   .section-seventh_text-item {
     width: 100%;
+
   }
   .section-seventh_text-title {
     font-size: 22px;
