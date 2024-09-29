@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+}
+body {
+  color: #1f1f1f;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  opacity: 0.7;
+}
+li {
+  list-style: none
+}
+div {
+  box-sizing: border-box;
+  position: relative;
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
