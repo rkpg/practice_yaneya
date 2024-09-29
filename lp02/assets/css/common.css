@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+}
+body {
+  color: #333333;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  opacity: 0.7;
+}
+li {
+  list-style: none
+}
+div {
+  box-sizing: border-box;  
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+@media (min-width: 530px) {
+  .break_pc-530:after {
+    content: "\A";
+    white-space: pre;
+  }
+}
+@media (max-width: 480px) {
+  .break_pc-480:after {
+    content: "\A";
+    white-space: pre;
+  }
+}
